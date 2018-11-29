@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>item15_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{112,164},{86,37}}</string>
+				<key>offset</key>
+				<string>{6,2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>item15_10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,5},{97,43}}</string>
+				<key>offset</key>
+				<string>{0,4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>item15_11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{208,164},{86,37}}</string>
+				<key>offset</key>
+				<string>{6,2}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>item15_12.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{112,5},{97,43}}</string>
+				<key>offset</key>
+				<string>{0,4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>item15_13.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,58},{97,43}}</string>
+				<key>offset</key>
+				<string>{0,4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>item15_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{112,58},{97,43}}</string>
+				<key>offset</key>
+				<string>{0,4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>item15_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{112,211},{86,37}}</string>
+				<key>offset</key>
+				<string>{6,2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>item15_4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,111},{97,43}}</string>
+				<key>offset</key>
+				<string>{0,4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>item15_5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,217},{86,37}}</string>
+				<key>offset</key>
+				<string>{6,2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>item15_6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{112,111},{97,43}}</string>
+				<key>offset</key>
+				<string>{0,4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>item15_7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{101,258},{86,37}}</string>
+				<key>offset</key>
+				<string>{6,2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>item15_8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,164},{97,43}}</string>
+				<key>offset</key>
+				<string>{0,4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>item15_9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{197,260},{86,37}}</string>
+				<key>offset</key>
+				<string>{6,2}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>item15_anims_from_i6p.png</string>
+			<key>realTextureFileName</key>
+			<string>item15_anims_from_i6p.png</string>
+			<key>size</key>
+			<string>{256,512}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>256</integer>
+			<key>height</key>
+			<integer>512</integer>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,444 @@
+attribute vec4 a_position; 
+attribute vec2 a_texCoord; 
+attribute vec4 a_color; 
+ 
+//配置片段着色器 纹理&&颜色 
+varying vec4 v_fragmentColor; 
+varying vec2 v_texCoord; 
+ 
+/////////////////////// 
+const float PI = 3.1415926535; 
+ 
+// mode 
+const float MODE_R2L = 1.0; //右向左 
+const float MODE_RB2LT = 2.0; //右下到左上 
+const float MODE_B2T = 3.0; //下到上 
+const float MODE_L2R = 4.0; //左到右 
+const float MODE_LB2RT = 5.0; //左下到右上 
+ 
+//area 
+const float AREA_NORMAL = 1.0; 
+const float AREA_BEND = 2.0; 
+const float AREA_REVERSAL = 3.0; 
+ 
+/////////////////////// 
+//位置偏移 
+uniform float offx; 
+uniform float offy; 
+ 
+uniform float mode;//推进方式 
+uniform float cardWidth;//扑克长边 
+uniform float cardHeight;//扑克短边 
+uniform float rubRadius;//弯曲半径 
+ 
+/////////////////////// 
+//模型区域划分 
+uniform float k1; 
+uniform float j1; 
+uniform float j2; 
+ 
+//结束动画 
+uniform float actionRadius; //平展半径 
+uniform float actionFlag;   //开始结束动画标志 
+ 
+uniform float actionOffX;    
+uniform float actionOffY;    
+uniform float actionOffZ; 
+ 
+uniform float actionOffX1;    
+uniform float actionOffY1;    
+uniform float actionOffZ1; 
+ 
+//模型 
+ 
+float getVertexArea(vec4 pos) 
+{ 
+    //与牌面垂直 
+    if(mode == MODE_R2L) 
+    { 
+        if(pos.x <= j1) return AREA_NORMAL; 
+        if(pos.x >= j2) return AREA_REVERSAL; 
+        return AREA_BEND; 
+    } 
+    else if(mode == MODE_B2T) 
+    { 
+        if(pos.y >= j1) return AREA_NORMAL; 
+        if(pos.y <= j2) return AREA_REVERSAL; 
+        return AREA_BEND; 
+    } 
+    else if(mode == MODE_L2R) 
+    { 
+        if(pos.x >= j1) return AREA_NORMAL; 
+        if(pos.x <= j2) return AREA_REVERSAL; 
+        return AREA_BEND; 
+    } 
+    //不与牌面垂直 
+    else if(mode == MODE_RB2LT) 
+    { 
+        float b = pos.y - k1*pos.x; 
+        if(b >= j1)return AREA_NORMAL; 
+        if(b <= j2)return AREA_REVERSAL; 
+        return AREA_BEND; 
+    } 
+    else if(mode == MODE_LB2RT) 
+    { 
+        float b = pos.y - k1*pos.x; 
+        if(b >= j1)return AREA_NORMAL; 
+        if(b <= j2)return AREA_REVERSAL; 
+        return AREA_BEND; 
+    } 
+    return AREA_NORMAL; 
+} 
+/////////////////////// 
+//搓牌 
+ 
+//翻转区域 
+vec4 trans2ReversalPos(vec4 pos) 
+{ 
+    //与牌面垂直 
+    if(mode == MODE_R2L) 
+    { 
+        float x = pos.x - 2.0*(pos.x - (j1 + j2)/2.0); 
+        return vec4(x, pos.y, pos.z + rubRadius*2.0, pos.w); 
+    } 
+    else if(mode == MODE_B2T) 
+    { 
+        float y = pos.y + 2.0*((j1 + j2)/2.0 - pos.y); 
+        return vec4(pos.x, y, pos.z + rubRadius*2.0, pos.w); 
+    } 
+    else if(mode == MODE_L2R) 
+    { 
+        float x = pos.x + 2.0*((j1 + j2)/2.0 - pos.x); 
+        return vec4(x, pos.y, pos.z + rubRadius*2.0, pos.w); 
+    } 
+    //不与牌面垂直 
+    else if(mode == MODE_RB2LT) 
+    { 
+        float j3 = j1 + (j2 - j1)/2.0; 
+        // y = k1*x + j3 
+ 
+        float A = pos.y - j3; 
+        float B = pos.x + pos.y -A; 
+        return vec4(A, B, pos.z + rubRadius*2.0, pos.w); 
+    } 
+    else if(mode == MODE_LB2RT) 
+    { 
+        float j3 = j2 + (j1 - j2)/2.0; 
+        // y = k1*x + j3 
+ 
+        float A = j3 - pos.y; 
+        float B = A + pos.y - pos.x; 
+        return vec4(A, B, pos.z + rubRadius*2.0, pos.w); 
+    } 
+    return pos; 
+} 
+ 
+//弯曲区域 
+vec4 trans2BendPos(vec4 pos) 
+{ 
+    //与牌面垂直 
+    if(mode == MODE_R2L) 
+    { 
+        float r = rubRadius; 
+        float l = pos.x - j1; 
+        float rad = l/r; 
+        float x; 
+        float z; 
+        if(rad > PI/2.0)  
+        { 
+            float rad1 = rad - PI/2.0; 
+            float dx = r*cos(rad1); 
+            float dz = r*sin(rad1); 
+            z = r + dz; 
+            x = j1 + dx; 
+        } 
+        else 
+        { 
+            float rad1 = rad; 
+            float dx = r*sin(rad1); 
+            float dz = r*cos(rad1); 
+            z = r - dz; 
+            x = j1 + dx; 
+        } 
+        return vec4(x, pos.y, z, pos.w); 
+    } 
+    else if(mode == MODE_B2T) 
+    { 
+        float r = rubRadius; 
+        float l = j1 - pos.y; 
+        float rad = PI * (l/(PI*r)); 
+        float y = j1 - sin(rad)*r; 
+        float z = r - r*cos(rad); 
+        return vec4(pos.x, y, z, pos.w); 
+    } 
+    else if(mode == MODE_L2R) 
+    { 
+        float r = rubRadius; 
+        float l = j1 - pos.x; 
+        float rad = PI * (l/(PI*r)); 
+        float x = j1 - sin(rad)*r; 
+        float z = r - r*cos(rad); 
+        return vec4(x, pos.y, z, pos.w); 
+    } 
+    //不与牌面垂直 
+    else if(mode == MODE_RB2LT) 
+    { 
+        float r = rubRadius; 
+        float l = abs((pos.x - pos.y + j1)/(sqrt(2.0))); 
+        float rad = PI * (l/(PI*r)); 
+        float z = r - r*cos(rad); 
+        float len = sin(rad)*r; 
+        float x = pos.x - (sin(PI/4.0)*(l - len)); 
+        float y = pos.y + (sin(PI/4.0)*(l - len)); 
+        return vec4(x, y, z, pos.w); 
+    } 
+    else if(mode == MODE_LB2RT) 
+    { 
+        float r = rubRadius; 
+        float l = abs((pos.x + pos.y - j1)/(sqrt(2.0))); 
+        float rad = PI * (l/(PI*r)); 
+        float z = r - r*cos(rad); 
+        float len = sin(rad)*r; 
+        float x = pos.x + (sin(PI/4.0)*(l - len)); 
+        float y = pos.y + (sin(PI/4.0)*(l - len)); 
+        return vec4(x, y, z, pos.w); 
+    } 
+    return pos; 
+} 
+ 
+/////////////////////// 
+//结束动画 
+ 
+//弯曲区域动作 
+vec4 actionBend(vec4 pos) 
+{ 
+    //与牌面垂直 
+    if(mode == MODE_R2L) 
+    {    
+        /* 
+        float l = j2 - pos.x; 
+        float R = actionRadius; 
+        float cx1 = j1; 
+        float cy1 = (rubRadius*2)-R; 
+        float rad = l/R; 
+         
+        if(rad <= PI/2) 
+        { 
+            float rad1 = PI - l/R; 
+            float x = cx1 + R*sin(rad1); 
+            float z = cy1 - R*cos(rad1); 
+            return vec4(x, pos.y, z, pos.w); 
+        } 
+        else if(rad > PI/2) 
+        { 
+            float rad1 = l/R; 
+            float x = cx1 + R*sin(rad1); 
+            float z = cy1 + R*cos(rad1); 
+            return vec4(x, pos.y, z, pos.w); 
+        } 
+        */ 
+    } 
+    else if(mode == MODE_B2T) 
+    { 
+ 
+    } 
+    else if(mode == MODE_L2R) 
+    { 
+ 
+    } 
+    //不与牌面垂直 
+    else if(mode == MODE_RB2LT) 
+    { 
+ 
+    } 
+    else if(mode == MODE_LB2RT) 
+    { 
+ 
+    } 
+    return pos; 
+} 
+ 
+//正常区域动作 
+vec4 actionNormal(vec4 pos) 
+{ 
+    //与牌面垂直 
+    if(mode == MODE_R2L) 
+    { 
+        /* 
+        float R = actionRadius; 
+        float l = rubRadius*PI; 
+        float rad = l/R; 
+ 
+        if (rad > PI/2) 
+        { 
+ 
+        } 
+        else if (rad <= PI/2) 
+        { 
+ 
+        } 
+        //切点 
+        float x1 = j1 + R*sin(rad); 
+        float z1 = rubRadius*2 - (R - R*cos(rad)); 
+ 
+        //圆心j1,rubRadius*2-R 
+        float cx1 = j1; 
+        float cy1 = rubRadius*2-R; 
+ 
+        float len1 = pos.x - j2; 
+        float rad1 = atan(len1/R); 
+ 
+        float len2 = sin(rad1)*R; 
+        float len3 = sqrt(len1*len1-len2*len2); 
+         
+        return vec4(x1 + len1, pos.y, z1 - len2, pos.w); 
+        */ 
+    } 
+    else if(mode == MODE_B2T) 
+    { 
+ 
+    } 
+    else if(mode == MODE_L2R) 
+    { 
+ 
+    } 
+    //不与牌面垂直 
+    else if(mode == MODE_RB2LT) 
+    { 
+ 
+    } 
+    else if(mode == MODE_LB2RT) 
+    { 
+ 
+    } 
+    return pos; 
+} 
+ 
+//翻转区域动作 
+vec4 actionReversal(vec4 pos) 
+{ 
+    //与牌面垂直 
+    if(mode == MODE_R2L) 
+    { 
+         
+    } 
+    else if(mode == MODE_B2T) 
+    { 
+ 
+    } 
+    else if(mode == MODE_L2R) 
+    { 
+ 
+    } 
+    //不与牌面垂直 
+    else if(mode == MODE_RB2LT) 
+    { 
+ 
+    } 
+    else if(mode == MODE_LB2RT) 
+    { 
+ 
+    } 
+    return pos; 
+} 
+ 
+vec4 actionOffset(vec4 pos) 
+{ 
+    //与牌面垂直 
+    if(mode == MODE_R2L) 
+    { 
+        float dx = j1 - actionOffX; 
+        pos += vec4(-dx*2.0, 0.0, 0.0, 0.0); 
+    } 
+    else if(mode == MODE_B2T) 
+    { 
+        float dy = j1 - actionOffY; 
+        pos += vec4(0.0, -dy*2.0, 0.0, 0.0); 
+    } 
+    else if(mode == MODE_L2R) 
+    {    
+        float dx = j1 - actionOffX; 
+        pos += vec4(-dx*2.0, 0.0, 0.0, 0.0); 
+    } 
+    //不与牌面垂直 
+    else if(mode == MODE_RB2LT) 
+    { 
+        float dx = j1 - actionOffX; 
+        pos += vec4(dx, -dx, 0.0, 0.0); 
+    } 
+    else if(mode == MODE_LB2RT) 
+    { 
+         
+        float dx = j1 - actionOffX; 
+        pos += vec4(-dx , -dx, 0.0, 0.0); 
+    } 
+    return pos; 
+} 
+ 
+/////////////////////// 
+void main() 
+{ 
+    //注意OpenGL-ES中：1.attribute修饰的变量是常量。2.没有自动转类型float a = 1;或者5.0/3都是错误的 
+    //这两个问题改了两天，可以通过修改CPP代码，打印log来调试cocos2dx程序 
+    vec4 tmp_pos = a_position; 
+ 
+    //旋转 
+    tmp_pos = vec4(tmp_pos.x, tmp_pos.y, tmp_pos.z, tmp_pos.w); 
+ 
+    float fArea = getVertexArea(tmp_pos); 
+    if (actionFlag == 1.0 || actionFlag == 2.0) 
+    { 
+        //结束动画 
+        if (fArea == AREA_NORMAL) 
+        { 
+ 
+        } 
+        else if(fArea == AREA_REVERSAL) 
+        { 
+            tmp_pos = trans2ReversalPos(tmp_pos); 
+        } 
+        else if(fArea == AREA_BEND) 
+        { 
+            tmp_pos = trans2BendPos(tmp_pos); 
+        } 
+ 
+        if(actionFlag == 2.0) 
+        { 
+            //调整位置 
+            //tmp_pos = vec4(tmp_pos.x, -tmp_pos.y, tmp_pos.z, tmp_pos.w); 
+            tmp_pos += vec4(actionOffX1, actionOffY1, 0.0, 0.0); 
+        } 
+        else 
+        { 
+            tmp_pos = actionOffset(tmp_pos); 
+        } 
+ 
+        tmp_pos += vec4(0.0, 0.0, actionOffZ, 0.0); 
+    } 
+    else if(actionFlag == 0.0) 
+    { 
+        //搓牌 
+        if (fArea == AREA_NORMAL) 
+        { 
+             
+        } 
+        else if(fArea == AREA_REVERSAL) 
+        { 
+            tmp_pos = trans2ReversalPos(tmp_pos); 
+        } 
+        else if(fArea == AREA_BEND) 
+        { 
+            tmp_pos = trans2BendPos(tmp_pos); 
+        } 
+    } 
+ 
+    //居中显示 
+    tmp_pos += vec4(offx, offy, 0.0, 0.0); 
+ 
+    //坐标转换 
+    gl_Position = CC_MVPMatrix * tmp_pos; 
+     
+    //配置片段着色器 纹理&&颜色 
+    v_fragmentColor = a_color; 
+    v_texCoord = a_texCoord; 
+} 

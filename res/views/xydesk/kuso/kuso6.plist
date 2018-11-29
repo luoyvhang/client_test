@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>wen_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{87,187},{89,68}}</string>
+				<key>offset</key>
+				<string>{15,-26}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{182,182}</string>
+			</dict>
+			<key>wen_10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{173,177},{86,48}}</string>
+				<key>offset</key>
+				<string>{12,-18}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{182,182}</string>
+			</dict>
+			<key>wen_11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{221,183},{79,48}}</string>
+				<key>offset</key>
+				<string>{8,-18}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{182,182}</string>
+			</dict>
+			<key>wen_12.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{452,153},{79,53}}</string>
+				<key>offset</key>
+				<string>{8,-15}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{182,182}</string>
+			</dict>
+			<key>wen_13.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{452,74},{79,56}}</string>
+				<key>offset</key>
+				<string>{8,-14}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{182,182}</string>
+			</dict>
+			<key>wen_14.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{173,112},{65,65}}</string>
+				<key>offset</key>
+				<string>{7,-11}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{182,182}</string>
+			</dict>
+			<key>wen_15.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{238,0},{125,100}}</string>
+				<key>offset</key>
+				<string>{23,-25}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{182,182}</string>
+			</dict>
+			<key>wen_16.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{125,112}}</string>
+				<key>offset</key>
+				<string>{23,-19}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{182,182}</string>
+			</dict>
+			<key>wen_17.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{125,0},{113,112}}</string>
+				<key>offset</key>
+				<string>{6,-7}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{182,182}</string>
+			</dict>
+			<key>wen_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,196},{85,68}}</string>
+				<key>offset</key>
+				<string>{16,-25}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{182,182}</string>
+			</dict>
+			<key>wen_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,264},{85,68}}</string>
+				<key>offset</key>
+				<string>{16,-25}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{182,182}</string>
+			</dict>
+			<key>wen_4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{329,159},{109,68}}</string>
+				<key>offset</key>
+				<string>{5,-26}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{182,182}</string>
+			</dict>
+			<key>wen_5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{363,0},{109,74}}</string>
+				<key>offset</key>
+				<string>{5,-23}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{182,182}</string>
+			</dict>
+			<key>wen_6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{238,100},{91,83}}</string>
+				<key>offset</key>
+				<string>{14,-18}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{182,182}</string>
+			</dict>
+			<key>wen_7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{363,74},{89,85}}</string>
+				<key>offset</key>
+				<string>{16,-17}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{182,182}</string>
+			</dict>
+			<key>wen_8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,112},{87,84}}</string>
+				<key>offset</key>
+				<string>{16,-17}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{182,182}</string>
+			</dict>
+			<key>wen_9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{87,112},{86,75}}</string>
+				<key>offset</key>
+				<string>{17,-21}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{182,182}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>kuso6.png</string>
+			<key>realTextureFileName</key>
+			<string>kuso6.png</string>
+			<key>size</key>
+			<string>{512,512}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>512</integer>
+			<key>height</key>
+			<integer>512</integer>
+		</dict>
+	</dict>
+</plist>
