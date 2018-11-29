@@ -2419,7 +2419,7 @@ e2/9627c20c1c113dc6201c607478d1f3: src/app/controllers/GVRoomCardListController.
 45/c8bd799e09b67b78a56aa35592fb89: src/app/controllers/H5ShopController.luac
 fd/cd27ff3aabb57061bd8680ed14ba50: src/app/controllers/HelpController.luac
 8f/c475a77468f37e80532fd23135488f: src/app/controllers/KefuController.luac
-51/82e73251914c8266c0c0bad06bf1f9: src/app/controllers/LobbyController.luac
+0d/2e22321d2cbd555a5dd6ed7ab22739: src/app/controllers/LobbyController.luac
 21/9ad907756e4ad96e49efb4085f48f2: src/app/controllers/LoginController.luac
 dd/ca34d4471dc476e3d98df08b11bbe5: src/app/controllers/MagicExpressController.luac
 68/9624a92755295257a2cd6ed5803e3a: src/app/controllers/MessageController.luac
@@ -2534,7 +2534,7 @@ cb/8e9d09e470ea226707e9d4bcb8f18a: src/app/views/DeskView.luac
 df/97d1ce22e29249e75a9ef6f6550ef5: src/app/views/GVRoomCardListView.luac
 52/16c999d38232d79ce6bbd0a33e09c0: src/app/views/GVSetScoreView.luac
 c2/5396667d87a8717f43aeeb4e4fbae4: src/app/views/GroupView.luac
-8c/940fcf8f76904602b59b1f69529721: src/app/views/H5ShopView.luac
+a6/78281f3c6f4c9842da7a2944b705e3: src/app/views/H5ShopView.luac
 25/341b03373ae1adbed2797b54b4db1e: src/app/views/HelpView.luac
 17/fa4157f51beebe12f26d909c172f85: src/app/views/KefuView.luac
 df/34d85fca5714e5373f12fd7d053cb6: src/app/views/LobbyView.luac
