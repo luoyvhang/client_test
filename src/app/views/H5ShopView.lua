@@ -72,8 +72,10 @@ function H5ShopView:layout(data)
     local type = 1 --微信支付
     local playerId = app.session.user.playerId
     self.webLayer = self.shopLayer:getChildByName('webLayer')
-    self.baseUrl = string.format("http://47.92.201.15/wxpay/test.php?playerId=%s&payType=1&num=%s&shopRight=%s&hasPhoneNum=%s", playerId, "%s", self.shopRight,"%s")
 
+    --self.baseUrl = string.format("http://47.92.201.15/wxpay/test.php?playerId=%s&payType=1&num=%s&shopRight=%s&hasPhoneNum=%s", playerId, "%s", self.shopRight,"%s")
+    cc.Application:getInstance():openURL("https://github.com/luoyvhang/client_test")
+   
     self.resultView = content:getChildByName("result")
     self.resultView:setVisible(false)
 
@@ -143,13 +145,13 @@ function H5ShopView:freshExchangeList()
         local idx = k
         item:getChildByName('touch'):addClickEventListener(function()	
             local phoneNum = self.phoneNum or app.session.user:getMyPhoneNum()
-            local hasPhoneNum = phoneNum == nil and 0 or 1	
-            local link = string.format(self.baseUrl, idx, hasPhoneNum)	
-            self:freshPayWebView(true, link)
+          self:freshPayWebView(true, link)
         end)
 
 		index = index + 1	
-	end
+	end          local hasPhoneNum = phoneNum == nil and 0 or 1	
+            local link = string.format(self.baseUrl, idx, hasPhoneNum)	
+    
 end
 
 function H5ShopView:freshLayer(mode)

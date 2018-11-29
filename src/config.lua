@@ -42,7 +42,7 @@ local production = {
   host='47.92.201.15',
   port = 28302,
   update = 'http://47.92.201.15:3000/chaoshanniuniu',
-  download = 'http://47.92.201.15/download',
+  download = 'http://47.92.201.15/download/',
   STARTUP='UpdateController',
   connectPort = 1234,
 }

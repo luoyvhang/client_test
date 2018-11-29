@@ -1,0 +1,99 @@
+
+#luaclient
+
+/win32
+.cocos-project.json
+config.json
+version.json
+/frameworks
+pack.lua
+only.sh
+apk.sh
+.luacheckrc
+sh.exe.stackdump
+crypt.py
+LICENSE
+gen_key_store.sh
+README
+README.md
+autopackage.sh
+
+# babelua for visual studio
+/.vs
+*.opendb
+*.db
+*.sln
+*.luaproj
+*.config
+*.user
+*.v12.suo
+src/.vscode/
+
+/frameworks/*
+/simulator/*
+win321/zlib1.dll
+win321/libogg.dll
+win321/libmpg123.dll
+win321/libcurl.dll
+win321/libcocos2d.dll
+win321/Gashapon/lua51.dll
+win321/Gashapon/libvorbisfile.dll
+win321/Gashapon/libvorbis.dll
+win321/Gashapon/lang
+win321/Gashapon/Gashapon nonelog.lnk
+win321/Gashapon/Gashapon log.lnk
+win321/Gashapon.pdb
+win321/Gashapon.ilk
+win321/websockets.dll
+win321/sqlite3.dll
+win321/run7.cmd
+win321/run7 - 副本.cmd
+win321/lang
+win321/iconv.dll
+win321/glew32.dll
+win321/account/accinfo
+win321/Gashapon/libogg.dll
+win321/Gashapon/libmpg123.dll
+win321/Gashapon/libcurl.dll
+win321/Gashapon/Gashapon.pdb
+win321/Gashapon/Gashapon.ilk
+win321/Gashapon/Gashapon.exe
+win321/Gashapon/Gashapon.dcache
+win321/run2.cmd
+win321/run2 - 副本.cmd
+win321/run1.cmd
+win321/run1 - 副本.cmd
+win321/OpenAL32.dll
+win321/Gashapon/zlib1.dll
+win321/Gashapon/websockets.dll
+win321/Gashapon/sqlite3.dll
+win321/Gashapon/iconv.dll
+win321/Gashapon/glew32.dll
+win321/Gashapon/OpenAL32.dll
+win321/run4.cmd
+win321/run4 - 副本.cmd
+win321/run3.cmd
+win321/run3 - 副本.cmd
+win321/Gashapon.exe.lnk
+win321/Gashapon.exe
+win321/Gashapon.dcache
+win321/run6.cmd
+win321/run6 - 副本.cmd
+win321/run5.cmd
+win321/run5 - 副本.cmd
+win321/account/acc8
+win321/account/acc7
+win321/account/acc6
+win321/account/acc5
+win321/account/acc2
+win321/account/acc1
+win321/Gashapon/libcocos2d.dll
+win321/lua51.dll
+win321/libvorbisfile.dll
+win321/libvorbis.dll
+win321/libtiff.dll
+win321/account/acc4
+win321/account/acc3
+win321/Gashapon/libtiff.dll
+
+publish/
