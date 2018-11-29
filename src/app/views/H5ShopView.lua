@@ -73,8 +73,7 @@ function H5ShopView:layout(data)
     local playerId = app.session.user.playerId
     self.webLayer = self.shopLayer:getChildByName('webLayer')
 
-    --self.baseUrl = string.format("http://47.92.201.15/wxpay/test.php?playerId=%s&payType=1&num=%s&shopRight=%s&hasPhoneNum=%s", playerId, "%s", self.shopRight,"%s")
-    cc.Application:getInstance():openURL("https://github.com/luoyvhang/client_test")
+    self.baseUrl = string.format("http://47.92.201.15/wxpay/test.php?playerId=%s&payType=1&num=%s&shopRight=%s&hasPhoneNum=%s", playerId, "%s", self.shopRight,"%s")
    
     self.resultView = content:getChildByName("result")
     self.resultView:setVisible(false)

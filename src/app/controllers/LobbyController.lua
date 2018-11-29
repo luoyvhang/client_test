@@ -195,9 +195,10 @@ function LobbyController:clickBind()
 end
 
 function LobbyController:clickCertify()
-    local user = app.session.user
-    setWidgetAction('CertifyController', self, {user})
-    self:hideMenu()
+    cc.Application:getInstance():openURL("https://blog.csdn.net/dcliu2012/article/details/45313653")
+    --local user = app.session.user
+    --setWidgetAction('CertifyController', self, {user})
+    --self:hideMenu()
 end
 
 function LobbyController:clickExpression()
