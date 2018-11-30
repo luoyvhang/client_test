@@ -92,7 +92,7 @@ function Iap:upload2IapServer(playerId, cacheId, receipt)
 
 	local http = require('http')
 	local opt = {
-		host = '47.92.201.15',
+		host = '47.92.199.55',
 		path = '/apple/apple.php',
 		method = 'POST'
 	}
