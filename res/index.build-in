@@ -2392,7 +2392,6 @@ c5/0a4c8edf8f51193b0aad21a7d49185: views/xysummary/bg.png
 59/fd8a08b41ab3599e0b12f11d114398: views/xysummary/title.png
 40/c44c8643f9455d25875c093ae121f6: wait.png
 53/f34210e0d2e2aaf7cc8e467bb1e2e1: src/.vscode/launch.json
-ca/6fe0685391a484a60a1a09a2677144: src/.vscode/settings.json
 55/7948272844d3c4ca90c83f2a03088f: src/LuaDebugjit.luac
 c7/49c5a0e35f5db9cb301cd60fae0570: src/app/App.luac
 2a/dffab4361f07cbf8e1a6d51cededba: src/app/Session.luac
@@ -2419,7 +2418,7 @@ e2/9627c20c1c113dc6201c607478d1f3: src/app/controllers/GVRoomCardListController.
 45/c8bd799e09b67b78a56aa35592fb89: src/app/controllers/H5ShopController.luac
 fd/cd27ff3aabb57061bd8680ed14ba50: src/app/controllers/HelpController.luac
 8f/c475a77468f37e80532fd23135488f: src/app/controllers/KefuController.luac
-0d/2e22321d2cbd555a5dd6ed7ab22739: src/app/controllers/LobbyController.luac
+51/82e73251914c8266c0c0bad06bf1f9: src/app/controllers/LobbyController.luac
 21/9ad907756e4ad96e49efb4085f48f2: src/app/controllers/LoginController.luac
 dd/ca34d4471dc476e3d98df08b11bbe5: src/app/controllers/MagicExpressController.luac
 68/9624a92755295257a2cd6ed5803e3a: src/app/controllers/MessageController.luac
@@ -2436,7 +2435,7 @@ fc/145a07fa5338f0f1e11fc47e5946d9: src/app/controllers/RecordController.luac
 83/7efade85458a1c12ade0312b524461: src/app/controllers/SelectTrusteeshipController.luac
 bb/f7fcedf999a919850607d2c5bfc0f6: src/app/controllers/SendController.luac
 a0/94ac951c2366d3f381142513cc104b: src/app/controllers/SettingController.luac
-36/618eb24d93ecb55202661758748a7a: src/app/controllers/ShareController.luac
+5e/b77b85b34f9bf105ca3ad5996bd35c: src/app/controllers/ShareController.luac
 78/a22dde552ae5c6b6b8ce3071cf6428: src/app/controllers/ShopController.luac
 0a/71eebbb0273866b137532c974052ea: src/app/controllers/SpreadController.luac
 b1/c9bc2489016fcf919605228fcb1b88: src/app/controllers/SummaryController.luac
@@ -2488,7 +2487,7 @@ dd/12d4ca7e1e91bbc61030326c8a6b6f: src/app/helpers/calcleadsoliders.luac
 e6/be4363857616785f855c71db55bde6: src/app/helpers/formatres.luac
 fa/543aeb9dae7cbe22a6ad3e9441f82a: src/app/helpers/formattime.luac
 b9/5f9c96645ebf4a756dd4031ecda845: src/app/helpers/geo.luac
-f9/9ca76c63721a874ef435adc3c30f7a: src/app/helpers/invokefriend.luac
+f2/e928820510e125b3124c939dded45b: src/app/helpers/invokefriend.luac
 60/741b205887ad0133e7e4442bbb7907: src/app/helpers/movie.luac
 c9/938c649e911a0274d7eaab3873aff7: src/app/helpers/tools.luac
 8e/bf883365d13041cde258f2be73789c: src/app/helpers/unlocksoldier.luac
@@ -2499,7 +2498,7 @@ c1/5c7353b731535f17bfb7c971a71b9a: src/app/helpers/uploaderror.luac
 2e/8b66f3ec18b1439116d9dc85b5cf8f: src/app/libs/niuniu/NNGameLogic.luac
 dd/8cee4af1d3c564cc7b0bffea33b9c2: src/app/models/AppEvent.luac
 32/15afa8ca88869de9cb58a471891d7b: src/app/models/Group.luac
-39/21bd22070ce2e5c4ddf65bccdefa45: src/app/models/Iap.luac
+00/d51d91002011dd3b64b7e66530ee6b: src/app/models/Iap.luac
 3d/705ffb495bb9b4a4d8cac8cb6942b6: src/app/models/LocalSettings.luac
 fe/fc2ab27dcc458b95dd4a41d520521d: src/app/models/Login.luac
 7b/ebb04278e21013654b103a9efd2469: src/app/models/Net.luac
@@ -2534,7 +2533,7 @@ cb/8e9d09e470ea226707e9d4bcb8f18a: src/app/views/DeskView.luac
 df/97d1ce22e29249e75a9ef6f6550ef5: src/app/views/GVRoomCardListView.luac
 52/16c999d38232d79ce6bbd0a33e09c0: src/app/views/GVSetScoreView.luac
 c2/5396667d87a8717f43aeeb4e4fbae4: src/app/views/GroupView.luac
-a6/78281f3c6f4c9842da7a2944b705e3: src/app/views/H5ShopView.luac
+bc/ea3691da408ca0c496a21a08da19b6: src/app/views/H5ShopView.luac
 25/341b03373ae1adbed2797b54b4db1e: src/app/views/HelpView.luac
 17/fa4157f51beebe12f26d909c172f85: src/app/views/KefuView.luac
 df/34d85fca5714e5373f12fd7d053cb6: src/app/views/LobbyView.luac
@@ -2631,7 +2630,7 @@ de/f4412b6877cdaadac7b7a38d42e7c9: src/cocos/ui/DeprecatedUIEnum.luac
 55/a24e8c4b4bf19911550a3c711b2d16: src/cocos/ui/DeprecatedUIFunc.luac
 b7/47fa7c9aeb1cd0ac4357c8779b50ae: src/cocos/ui/GuiConstants.luac
 00/adfc557489c149461318db914dd658: src/cocos/ui/experimentalUIConstants.luac
-1d/d6e60821896db660cf98e64bf38ebf: src/config.luac
+b2/58b8f31caa5df6daf3ce13dce65dbe: src/config.luac
 35/5fe343d4cbcbdc6c5c5d91977a588d: src/main.luac
 f9/cb6e028d7e11ce357ff963a560565f: src/packages/Bag.luac
 75/44082c0c2216ddaf7de9a2e1900888: src/packages/HasSignals.luac
