@@ -39,10 +39,10 @@ local function devconf()
 end
 
 local production = {
-  host='47.92.199.55',
+  host='47.92.201.15',
   port = 28302,
-  update = 'http://47.92.199.55:3000/chaoshanniuniu',
-  download = 'http://47.92.199.55/download',
+  update = 'http://47.92.201.15:3000/chaoshanniuniu',
+  download = 'http://47.92.201.15/download',
   STARTUP='UpdateController',
   connectPort = 1234,
 }

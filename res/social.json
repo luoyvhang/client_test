@@ -7,13 +7,13 @@
   "platforms": {
     "Wechat": {
       "appid": "wx7ba679531378285a",
-      "appsecret": "4442d3162be42f6cf673dd8ecdc1a9dd",
+      "appsecret": "28c69a335c4e4993d4075117b64ff460",
       "ui": true,
       "order": 1
     },
     "WechatMoments": {
       "appid": "wx7ba679531378285a",
-      "appsecret": "4442d3162be42f6cf673dd8ecdc1a9dd",
+      "appsecret": "28c69a335c4e4993d4075117b64ff460",
       "ui": true,
       "order": 2
     }
