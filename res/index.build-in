@@ -329,7 +329,7 @@ b7/8188301d02a3b24c1ebc3ffa9b1338: views/GVMemberListView.csb
 ef/183c84599c1306a9e1e998768df037: views/GVSetScoreView.csb
 3c/81bfa3d65cd75eb5578d33ae90b649: views/GroupView.csb
 d4/c3b5a3f9b342f10df0045c7bd00b7f: views/H5ShopView.csb
-f0/082608847b6e96e9244378a1043d27: views/LobbyView.csb
+ad/5dfc6b97d7e422a38019bca3e1bfbc: views/LobbyView.csb
 ab/a55ddd097632fa9fdc6e0b64984f58: views/LoginView.csb
 d7/665a9be0cb8bf85aec2c9c22169a76: views/MagicExpressView.csb
 6c/7bd0f9fbaccfcdbf02d77afd0e2eb4: views/MessageView.csb
@@ -1324,6 +1324,7 @@ f8/f5224b4ce8ebea0fddd8b802e3d152: views/lobby/Wifi1.png
 0a/833b4f4d81edfecbee75f3559f393c: views/lobby/activityAnimation.csb
 2d/d283305772e1f43fbc34f328d57d75: views/lobby/beer.png
 fa/5a7ddbb352f82c401c4f6564b50cef: views/lobby/bg1.png
+71/0babcbc412b299f72365fa3675fe6c: views/lobby/bg_1.png
 72/a78e016d87950f5066cdfb505bde67: views/lobby/body1.png
 8f/51c0f994abc2596e1b79bfcd3a7230: views/lobby/btn_roomInvite1.png
 4d/e073c3123b28fe811a2eacfc7e39bf: views/lobby/btn_shop_tx.plist
@@ -1336,6 +1337,7 @@ fa/5a7ddbb352f82c401c4f6564b50cef: views/lobby/bg1.png
 1e/c293ab5e2577b97a082e69ad7016a4: views/lobby/clubRoomAnimation.csb
 d2/da3960a43b5c39a8085435e5203473: views/lobby/club_tx.plist
 d1/ed3b84a9e0624b345c221271fea1b3: views/lobby/club_tx.png
+b4/969787fef2c0657b568987331b8d35: views/lobby/creat_1.png
 04/3d335e789adffaedf6f257f799eefc: views/lobby/createRoom.png
 db/117d1fd5d8caea8714eb8a6e00ebdf: views/lobby/createRoom1.png
 ab/e0e2219708910f64193e26bb7a3eec: views/lobby/createRoomAnimation.csb
@@ -1366,6 +1368,7 @@ ee/acf5a81a515501feae812ddb088207: views/lobby/id.png
 ea/3b4d8591e852bcc7768e5ca1e69407: views/lobby/joinRoom.png
 42/84bd6083cc44342059fb24d2ef3b22: views/lobby/joinRoom1.png
 4e/b22b48108ea75e5d4921303538b94a: views/lobby/joinRoomAnimation.csb
+f9/b4554c0ad7cc3e17227aa76e322c3e: views/lobby/join_1.png
 48/3a2ce571060976832c464464fdd923: views/lobby/joingame_tx.plist
 da/5d685b9184c922735fa63ef4628bc6: views/lobby/joingame_tx.png
 a0/5340fa02b1d728044c05fd86eaa542: views/lobby/k.png
@@ -1377,6 +1380,7 @@ ce/8936308f9a7162b57a271626498862: views/lobby/left_feet.png
 cc/9163c29b79bc9ff0ee0aba6dc5464f: views/lobby/left_hand.png
 b4/70cc516f91e3425e618ea1afedd1f3: views/lobby/logo.png
 55/8f125ee9f61b6bc2b12c6071dbbf69: views/lobby/logoAnimation.csb
+61/b98d9a53349434ae891dc0a3f403a6: views/lobby/niuclub_1.png
 52/2184cb4ce7bcae8d3e28b0718ffc83: views/lobby/nnBodyAnimation.csb
 16/152a3a065e577d77e95a08111cd6d8: views/lobby/noroom.png
 45/e9d15b9266664707dca272b9418191: views/lobby/plus1.png
@@ -2536,7 +2540,7 @@ c2/5396667d87a8717f43aeeb4e4fbae4: src/app/views/GroupView.luac
 bc/ea3691da408ca0c496a21a08da19b6: src/app/views/H5ShopView.luac
 25/341b03373ae1adbed2797b54b4db1e: src/app/views/HelpView.luac
 17/fa4157f51beebe12f26d909c172f85: src/app/views/KefuView.luac
-9d/a48685ca09deabb84621722b6ec568: src/app/views/LobbyView.luac
+c9/770bf625fbe07e4603ec59dd4bf8af: src/app/views/LobbyView.luac
 e7/f029e7070c96dc38da0a75ba6b765d: src/app/views/LoginView.luac
 f6/bc6aa2a6c2db8b1e8da259142ba8e6: src/app/views/MagicExpressView.luac
 47/8d71e7e131f48ba72e99665449ffe9: src/app/views/MessageView.luac
