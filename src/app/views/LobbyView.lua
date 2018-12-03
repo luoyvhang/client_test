@@ -87,7 +87,7 @@ function LobbyView:layout()
   list:setScrollBarEnabled(false)
 
   --执行动画
-  self:startAllAnimation()
+  --self:startAllAnimation()
 
   -- 刷新时间
   local scheduler_ = cc.Director:getInstance():getScheduler()
@@ -131,25 +131,25 @@ end
 
 --执行全部动画
 function LobbyView:startAllAnimation()
-  --self:showShopAction()
+  self:showShopAction()
   self:showLogoAction()
   self:showDiamondAction()
-  --self:showActivityAction()
-  --self:showSignInAction()
-  --self:showExpressionAction()
-  --self:showNNbodyAction()
+  self:showActivityAction()
+  self:showSignInAction()
+  self:showExpressionAction()
+  self:showNNbodyAction()
   self:startRoomAnimation()
 end
 --停止全部动画
 function LobbyView:stopAllAnimation()
-  self.TopBar:getChildByName("logo"):getChildByName("logoNode"):stopAllActions()
-  self.TopBar:getChildByName("head"):getChildByName("frame"):getChildByName("diamondNode"):stopAllActions()
+  --self.TopBar:getChildByName("logo"):getChildByName("logoNode"):stopAllActions()
+  --self.TopBar:getChildByName("head"):getChildByName("frame"):getChildByName("diamondNode"):stopAllActions()
   --self.MainPanel:getChildByName("activity"):getChildByName("activityNode"):stopAllActions()
   --self.MainPanel:getChildByName("signIn"):getChildByName("signInNode"):stopAllActions()
   --self.MainPanel:getChildByName("expression"):getChildByName("expressionNode"):stopAllActions()
   --self.MainPanel:getChildByName("shop"):getChildByName("shopNode"):stopAllActions()
   --self.MainPanel:getChildByName("nnBodyNode"):stopAllActions()
-  self:stopRoomAnimation()
+  --self:stopRoomAnimation()
 end
 
 --停止room动画并隐藏
