@@ -329,7 +329,7 @@ b7/8188301d02a3b24c1ebc3ffa9b1338: views/GVMemberListView.csb
 ef/183c84599c1306a9e1e998768df037: views/GVSetScoreView.csb
 3c/81bfa3d65cd75eb5578d33ae90b649: views/GroupView.csb
 d4/c3b5a3f9b342f10df0045c7bd00b7f: views/H5ShopView.csb
-3e/b6caf20bc86dd9d30884e454ae5f55: views/LobbyView.csb
+1f/36975ac2d48db136b2cd09bea17126: views/LobbyView.csb
 ab/a55ddd097632fa9fdc6e0b64984f58: views/LoginView.csb
 d7/665a9be0cb8bf85aec2c9c22169a76: views/MagicExpressView.csb
 6c/7bd0f9fbaccfcdbf02d77afd0e2eb4: views/MessageView.csb
@@ -1628,6 +1628,7 @@ b3/ca7334ce5ab826324c660eb2a2f2f5: views/lobby/bg3.png
 4d/e073c3123b28fe811a2eacfc7e39bf: views/lobby/btn_shop_tx.plist
 2a/434096e79850952b77b05a43251fc7: views/lobby/btn_shop_tx.png
 4a/b6cc9aceeabc4d1b400007d95ec41d: views/lobby/caidan.png
+f9/d79cad62ecfb4ff6ed98dda284926e: views/lobby/changbeijing.png
 5a/ae93071b0d6f911f8ea49ebc3a8d2d: views/lobby/character_dh.plist
 01/71bc0c1bab2936f95f93c1d6bbf467: views/lobby/character_dh.png
 59/37afee49c7fb35db28a9375c6fdfdc: views/lobby/cloth.png
@@ -1667,6 +1668,8 @@ a4/f39b70d43c2f512c1c211d54fb449d: views/lobby/frame.png
 ea/df248d8bd58b16c8ce87137c5b10a4: views/lobby/hair8.png
 23/ecdccdfbd9adb0b899c9c5c9966755: views/lobby/hallloge_tx.plist
 df/1a6b866155e5c14b77a94abcccd0fa: views/lobby/hallloge_tx.png
+39/7f2fe87721a6b5be59ee7fc5fb37f7: views/lobby/haoyouchang.png
+1c/5e3c70a12dc12206409f6a866d6f86: views/lobby/haoyoukuang.png
 d2/9ecdaef6b080289646c70375098c83: views/lobby/head.png
 f2/19efc68426b0a036285728ee6207e5: views/lobby/help.png
 fc/dfdb3e11eb38f37b8683c7a44327ce: views/lobby/home_list_itembg.png
@@ -1773,9 +1776,11 @@ d8/83407fbbeb481f666c84965392d977: views/lobby/menuBg2.png
 82/8fffccf06421bb906b43f89cc67575: views/lobby/message2.png
 22/3e4982477d05fabad3ea7012d7cdc9: views/lobby/niu_club_small.png
 61/b98d9a53349434ae891dc0a3f403a6: views/lobby/niuclub_1.png
+46/b72be7d36f552c9af0d048b70e3af0: views/lobby/niuyouchang.png
 52/2184cb4ce7bcae8d3e28b0718ffc83: views/lobby/nnBodyAnimation.csb
 68/caac29f12e19b4a0d3252a48187cf8: views/lobby/nnBodyAnimation.csd
 16/152a3a065e577d77e95a08111cd6d8: views/lobby/noroom.png
+71/a1629cd4b51b096c55c589184fc03c: views/lobby/play_kuang.png
 fe/bb02769a6f4bcd117087890c5b6d22: views/lobby/playinfo.png
 ca/b96ad433f90d8e25ae90bb85a4a99e: views/lobby/playinfodikuang.png
 cc/e9b041949ad79bb58d38a4b98caa68: views/lobby/plus.png
@@ -1786,6 +1791,7 @@ cc/e9b041949ad79bb58d38a4b98caa68: views/lobby/plus.png
 42/9897c1bdf11aac2d9baeb0be4cdb96: views/lobby/right_ear.png
 62/ab497d9ba664532185af778c79c15c: views/lobby/right_feet.png
 33/9897b6ceee57473b365a5c35a3c656: views/lobby/right_hand.png
+52/1f991a0d67e4f56af732dcb9eaedc8: views/lobby/room_id_kuang.png
 14/11371a283a64e4caab66c4745f67aa: views/lobby/rule1.png
 d0/7fd1fef5be56da52ab8c8d0277825a: views/lobby/service1.png
 17/eedf8843c4e0a875d71b78f634614d: views/lobby/set1.png
@@ -1795,7 +1801,7 @@ cf/ff04798fa67ce153c25dd349238ddd: views/lobby/set_2.png
 4d/aecfb428c3fcff512746b590b3f68b: views/lobby/share.png
 41/20c526618da38aa05488ab8150dc96: views/lobby/share2.png
 7c/1c3c2c6af73870069999250bde5701: views/lobby/shop.png
-12/31ceda58030ca71ccba285748ed001: views/lobby/shopAnimation.csb
+c8/e4f7b4fe12053b42544cbc29583721: views/lobby/shopAnimation.csb
 f0/2922d8b008e9091fba7ad9286dedf2: views/lobby/shopAnimation.csd
 a4/56ab98b777289915141119d5eae502: views/lobby/signInAnimation.csb
 de/f9361c78800e1e067b47d713f4c629: views/lobby/signInAnimation.csd
@@ -1815,6 +1821,7 @@ fd/db428fabc4f58de090294d35e6f6e5: views/lobby/tx_joinroomm_anniu1.png
 6d/28437937bbfdb7df2f9b8b7005e67d: views/lobby/tx_login_3.png
 b7/7050d9af591585488cb0a08670bd5b: views/lobby/woman_2.png
 10/980ebaf015a709bda8d96f9be8cad6: views/lobby/xialacaidan.png
+a4/49ae641067e70ba6df020fd46a0ada: views/lobby/yaoqing.png
 ee/0f6aa605cb5f81032592a73a1b4d45: views/lobby/yaoqingma.png
 c2/797de308430eee61233a9345d5849a: views/lobby/z.png
 c2/925d53251e8ad296a2bb81357adedb: views/lobby/zhanji.png
