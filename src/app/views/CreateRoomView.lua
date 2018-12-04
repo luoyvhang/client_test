@@ -7,10 +7,10 @@ local CreateRoomView = {}
 local LocalSettings = require('app.models.LocalSettings')
 local roomType = {
     ['szOption'] = 1, 
-    --['gzOption'] = 2, 
+    ['gzOption'] = 2, 
     ['zqOption'] = 3, 
     ['mqOption'] = 4, 
-    --['tbOption'] = 5, 
+    ['tbOption'] = 5, 
     -- ['fkOption'] = 6, 
     ['bmOption'] = 7,
     ['smOption'] = 8,
@@ -29,10 +29,10 @@ local typeOptions = {
 }
 local tabs = {
     ['sz'] = 1, -- 牛牛上庄
-    --['gz'] = 2, -- 固定上庄
+    ['gz'] = 2, -- 固定上庄
     ['zq'] = 3, -- 自由抢庄
     ['mq'] = 4, -- 明牌抢庄
-    --['tb'] = 5, -- 通比牛牛
+    ['tb'] = 5, -- 通比牛牛
     -- ['fk'] = 6, -- 疯狂加倍
     ['bm'] = 7, -- 八人明牌
     ['sm'] = 8, -- 十人明牌
@@ -252,10 +252,12 @@ function CreateRoomView:freshTab(data)
             currentOpt:setVisible(false)
         end
     end
-    -- if self.isgroup then 
-    --     self.bg:getChildByName('tb'):setVisible(false)
-    --     self.bg:getChildByName('gz'):setVisible(false)
-    -- end
+    --记录
+     if self.isgroup then 
+         self.bg:getChildByName('tb'):setVisible(false)
+         self.bg:getChildByName('gz'):setVisible(false)
+     end
+     --记录
     LocalSettings:setRoomConfig("gameplay", self.focus)
 end
 
@@ -789,12 +791,13 @@ function CreateRoomView:layout(isGroup, createmode, paymode)
     else
         self.focus = 'sz'
     end
-
-    -- if self.isgroup then
-    --     if self.focus == 'gz' or self.focus == 'tb' then
-    --         self.focus = 'sz'
-    --     end
-    -- end
+    --记录
+    if self.isgroup then
+        if self.focus == 'gz' or self.focus == 'tb' then
+            self.focus = 'sz'
+         end
+    end
+    --记录
     self:freshTab()
 
     --启动csd动画
