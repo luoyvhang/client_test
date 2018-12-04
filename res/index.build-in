@@ -314,7 +314,7 @@ c9/2be5ee77072de7c3d6253624f46343: views/Certify/tx_certification2.plist
 ee/99de639024cf70489e4fc421ed69a1: views/Certify/tx_certification2.png
 a8/ac790c9ab7573e91d8d27db3c0d10f: views/CertifyView.csb
 9d/98343ef446bb4da1c701c236bf932d: views/ContactUsView.csb
-78/8aeb614840e0b18aa4e4df14e6737d: views/CreateRoomView.csb
+b7/48a974a2f83130c282a568d1ece3bf: views/CreateRoomView.csb
 62/ee840c40d3f8defc9d735d97d463af: views/Default/Button_Disable.png
 4d/471a4c88d14cd19a86df39ab53d189: views/Default/ImageFile.png
 60/9fbebb53132a207bde0e1a0827c75f: views/EnterRoomView.csb
@@ -3017,7 +3017,7 @@ ba/0af6061014d0258b631e03f29114d1: src/app/views/SelectTrusteeshipView.luac
 0d/d0eadb4d2c0d29a820a7d91d43e759: src/app/views/SettingView.luac
 2c/b2fb2272e9303cedc5726933311911: src/app/views/ShareView.luac
 97/ad11daf05d884fc423340162846cd2: src/app/views/ShopView.luac
-c0/8c6cde0e6902d52c439287da8f2cbe: src/app/views/SpreadView.luac
+d3/f68d53c97cfc092789641347898902: src/app/views/SpreadView.luac
 89/9b2e6f6535792667247946b1ca5a7d: src/app/views/SummaryView.luac
 35/2b6ba60ba352d4c7c40c87b909a3c5: src/app/views/TaskView.luac
 d9/a9b3a44fdd3b0a316273e5b33e2c75: src/app/views/UpdateView.luac
