@@ -272,7 +272,7 @@ d5/8c0b6b1988940aaae6b3588b1d3c95: sound/desk/ready_0.mp3
 f2/b919bf8dc2e427a03ba1e28d4c10aa: sound/desk/sit.mp3
 bd/b8ca9239dbf50eb8eeac9a22dbb8dd: sound/desk/win.mp3
 11/376cb0b59c5c10145256c071111b9a: sound/game_bg1.mp3
-68/b487a26c368f44c6100f436d576a80: sound/hall_bg1.mp3
+ed/32e80dbb5abe21c7023f56beebe71a: sound/hall_bg1.mp3
 46/719589dc5f08b4c49a0c7524a632e5: sound/poker_deal.mp3
 61/4d8e7fa131b2c8027f3cbe4bee58d7: sound/ring_jlb_room.mp3
 22/855c3071f4b7113bcd9be2148b6419: sound/room_dingding.mp3
@@ -286,7 +286,7 @@ ce/4a86dbca9f2be1115e58978c250737: sound/sfx/item5.mp3
 f9/5a4757781f7bc5a651a80a2989bb47: sound/sfx/item6.mp3
 74/8efc9fbaccefe7a552ddb731d703fe: sound/sfx/item7.mp3
 1d/306c417586f5794e9f753f3b27b62f: sound/sfx/item8.mp3
-ed/32e80dbb5abe21c7023f56beebe71a: sound/table_bgm1.mp3
+68/b487a26c368f44c6100f436d576a80: sound/table_bgm1.mp3
 6a/beedaf7ef75160c53200b006bf9739: sound/table_bgm2.mp3
 5a/416616d1f3f81c14274df0b01330dc: sound/table_bgm3.mp3
 e5/2405c5610b04b493efa5523eaf4eb0: sound/table_bgm4.mp3
@@ -330,7 +330,7 @@ ef/183c84599c1306a9e1e998768df037: views/GVSetScoreView.csb
 3c/81bfa3d65cd75eb5578d33ae90b649: views/GroupView.csb
 d4/c3b5a3f9b342f10df0045c7bd00b7f: views/H5ShopView.csb
 4a/35f1c09d00a31015ab1fc912bc794e: views/LobbyView.csb
-ab/a55ddd097632fa9fdc6e0b64984f58: views/LoginView.csb
+10/d77697e125854e31dc1f71410b97ec: views/LoginView.csb
 d7/665a9be0cb8bf85aec2c9c22169a76: views/MagicExpressView.csb
 6c/7bd0f9fbaccfcdbf02d77afd0e2eb4: views/MessageView.csb
 c8/74fdb4058047752874fc17fe0a7387: views/MsgBoxView.csb
@@ -342,9 +342,9 @@ ac/02132085cd4e0f2c4081b9263b681a: views/RecordView.csb
 c1/0ee69e1c5077f822c619fe9db7da44: views/SelectTrusteeshipView.csb
 a4/c4319210c9bfef96afaca9736c207b: views/SettingView.csb
 db/2bceeb949edf48871879a8961ca156: views/ShareView.csb
-29/d101e590f7598a522729f8d8f90eea: views/SpreadView.csb
+42/d35244b4515f8947a9529d8dc420aa: views/SpreadView.csb
 c7/8c724c8f46dbbd19121600049d4abd: views/TaskView.csb
-47/6f69c2c4dafeee94b761d4dfa2fdfb: views/UpdateView.csb
+86/2b055a2f94e75646cfb6c2bc60dc9f: views/UpdateView.csb
 79/3991ae7f0d70d97425293c3ab40603: views/WanFaView.csb
 5e/d9d995c8b28e9cf587167f786a5e7f: views/XYChatView.csb
 5a/9e697c42d1f20c0f960d9b8935050a: views/XYDeskView.csb
@@ -1191,7 +1191,7 @@ ac/85b6c03e211dca4aed7379826f252e: views/desk/logo.png
 b1/ab49a53fa2274183f1775cf3290848: views/desk/setting.png
 b1/5ac23a4582835e965d48bac736ff57: views/desk/voice.png
 97/dc3a34e11e89ad8dc39555afe3d08b: views/desk/zhuang.png
-b5/ec7ea125ecdf1cfcab5b8412961cd7: views/enterroom/ID_110.png
+32/6b899ec8734e72e01bff9e3c9d0f96: views/enterroom/ID_110.png
 ee/b55940437d33173818882b0dbbea40: views/enterroom/ID_151-.png
 80/7f3a715ba61b9e87d60fa32665ea1f: views/enterroom/ID_415.png
 1b/8ee786ce69a452cb8fa7f621609efb: views/enterroom/ID_417.png
@@ -2387,17 +2387,20 @@ dc/b4795644b4a67af221e6c306a88d19: views/shop/w.png
 ba/c4283753badb2fee6ea39da1cf4f27: views/spread/ID_749.png
 72/22271018e8c4b90b1c20de8c74512c: views/spread/ID_750.png
 d0/0ef25476f7a85947d1f25372fcd5d7: views/spread/ID_813.png
-83/12e2c91fae2d71a4195e230e927c4d: views/spread/ID_98-.png
-83/68245ec29f698f40da5faa2a471988: views/spread/agent_btn_binding.png
+6e/91ee0b7d9c93589cd3e6b70453c832: views/spread/ID_98-.png
+f0/eb8452dfc9c764a79777d9e9616419: views/spread/agent_btn_binding.png
 25/55e1a2c6a8ce915880367f55998e71: views/spread/agent_btn_binding_pressed.png
 6e/f955550cd4a807511e1567cdf7233a: views/spread/an.png
+ab/6731105c2d1a3f38a61c8d0e9e7cd0: views/spread/bolikuang.png
+26/7502419208c83eb8a97d4f90720884: views/spread/daili.png
 8e/d7cc59cbb0dad884746a29d70c7e14: views/spread/eye0.png
 ce/09d0680ce280dac75fbd4659e6d806: views/spread/klNNAnimation.csb
-90/9ca1d1999d092401e3c1375b2a83d9: views/spread/title.png
+75/521c704e7f27ed85cffbd4293b3655: views/spread/title.png
 21/22872be331efc275ca39e17e617983: views/spread/tx_agent_img.plist
 ec/3b8fb48a836601cf0245713d25984c: views/spread/tx_agent_img.png
 d8/c24ee98c80341565365ee774a5dede: views/spread/tx_agent_img1.plist
 7a/656466139b812874939173aab56788: views/spread/tx_agent_img1.png
+52/b8bc51e0a4aafd9d7443aff3b12ae0: views/spread/yaoqingma.png
 a5/dfbb27e3e02d940f28c255f7e3e17e: views/task/ID_112.png
 a3/2f4ac2e7493d6748172144f7655196: views/task/ID_113.png
 ef/d5c3a5aa41199fd295bd394dc9d47d: views/task/ID_114.png
@@ -2833,7 +2836,7 @@ e3/2e3074e13dc34ce638274312863950: src/app/controllers/ContactUsController.luac
 dd/69c63ee0be59a275ead2f730983c88: src/app/controllers/CreateRoomController.luac
 18/d487aeed033b9a81993c52eecc9985: src/app/controllers/DeskController.luac
 ab/01140a15b29d8d9f2d85d7d7448f88: src/app/controllers/DistanceController.luac
-6c/d85df1a4a0508cff2c87993e35709f: src/app/controllers/EnterRoomController.luac
+ab/f1338dbf4ede10583cfa0caa9f9a96: src/app/controllers/EnterRoomController.luac
 ca/267c6eff4c66e12eb716c1d56a2dd3: src/app/controllers/ExchangeController.luac
 d2/de68584a7d953a68da47095456ad02: src/app/controllers/FeedbackController.luac
 ce/034fdb48378aa9ee999e760471972c: src/app/controllers/GVAdvancedSettingListController.luac
@@ -2846,7 +2849,7 @@ e2/9627c20c1c113dc6201c607478d1f3: src/app/controllers/GVRoomCardListController.
 fd/cd27ff3aabb57061bd8680ed14ba50: src/app/controllers/HelpController.luac
 8f/c475a77468f37e80532fd23135488f: src/app/controllers/KefuController.luac
 51/82e73251914c8266c0c0bad06bf1f9: src/app/controllers/LobbyController.luac
-21/9ad907756e4ad96e49efb4085f48f2: src/app/controllers/LoginController.luac
+49/ea738584184500ed4af4f7e49ebe44: src/app/controllers/LoginController.luac
 dd/ca34d4471dc476e3d98df08b11bbe5: src/app/controllers/MagicExpressController.luac
 68/9624a92755295257a2cd6ed5803e3a: src/app/controllers/MessageController.luac
 69/8db3ed6abf4aa2810de9976f6e007c: src/app/controllers/MsgBoxController.luac
@@ -2951,7 +2954,7 @@ de/5e94eac153bfb298ae582a2d82ab93: src/app/views/ContactUsView.luac
 10/92655f95416dc22b8330446d052ab7: src/app/views/CreateRoomView.luac
 cb/8e9d09e470ea226707e9d4bcb8f18a: src/app/views/DeskView.luac
 8f/7f82e7296befa16cb84c1aa358279a: src/app/views/DistanceView.luac
-1e/ba35bfd43ad82ce7ae8796d2e3d2cc: src/app/views/EnterRoomView.luac
+74/07ffaf970e500ab557fe5dd2a4f1bb: src/app/views/EnterRoomView.luac
 7f/e763f281a059e9d9a0306c2020bdcd: src/app/views/ExchangeView.luac
 8e/2368870abe839c3e36d724c9782809: src/app/views/FeedbackView.luac
 39/344d69f01dc6e8102974aa683097bb: src/app/views/GVAdvancedSettingListView.luac
@@ -2964,7 +2967,7 @@ bc/ea3691da408ca0c496a21a08da19b6: src/app/views/H5ShopView.luac
 25/341b03373ae1adbed2797b54b4db1e: src/app/views/HelpView.luac
 17/fa4157f51beebe12f26d909c172f85: src/app/views/KefuView.luac
 c9/770bf625fbe07e4603ec59dd4bf8af: src/app/views/LobbyView.luac
-e7/f029e7070c96dc38da0a75ba6b765d: src/app/views/LoginView.luac
+fd/a5c34cfc0cb1828e7e88bc9a8b259e: src/app/views/LoginView.luac
 f6/bc6aa2a6c2db8b1e8da259142ba8e6: src/app/views/MagicExpressView.luac
 47/8d71e7e131f48ba72e99665449ffe9: src/app/views/MessageView.luac
 4f/8756416b03fb7470d42b4720ef260b: src/app/views/MsgBoxView.luac
