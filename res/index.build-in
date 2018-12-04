@@ -329,7 +329,7 @@ b7/8188301d02a3b24c1ebc3ffa9b1338: views/GVMemberListView.csb
 ef/183c84599c1306a9e1e998768df037: views/GVSetScoreView.csb
 3c/81bfa3d65cd75eb5578d33ae90b649: views/GroupView.csb
 d4/c3b5a3f9b342f10df0045c7bd00b7f: views/H5ShopView.csb
-1f/36975ac2d48db136b2cd09bea17126: views/LobbyView.csb
+4a/35f1c09d00a31015ab1fc912bc794e: views/LobbyView.csb
 ab/a55ddd097632fa9fdc6e0b64984f58: views/LoginView.csb
 d7/665a9be0cb8bf85aec2c9c22169a76: views/MagicExpressView.csb
 6c/7bd0f9fbaccfcdbf02d77afd0e2eb4: views/MessageView.csb
@@ -1675,6 +1675,7 @@ f2/19efc68426b0a036285728ee6207e5: views/lobby/help.png
 fc/dfdb3e11eb38f37b8683c7a44327ce: views/lobby/home_list_itembg.png
 9f/b069cb3de79d300c4b3f0472e9b1df: views/lobby/home_noroom_tit.png
 ee/acf5a81a515501feae812ddb088207: views/lobby/id.png
+ee/acf5a81a515501feae812ddb088207: views/lobby/id_1.png
 9a/769e4c109cd689fdcb61759010013a: views/lobby/id_70_2.png
 60/eb58e2c068ef18850e3ed15cc4fbd4: views/lobby/id_81_3.png
 b3/e7c73eafedff7bfd70725304eba8a9: views/lobby/info_2.png
@@ -1810,6 +1811,7 @@ e8/cbc888733e20ea2c7d06202063f2a8: views/lobby/tip_bg.png
 15/b7ee6485204d044783c52aeb16e6f8: views/lobby/title.png
 da/4d6eaf53cf0379c35a4e2aee9eb37b: views/lobby/tittleKuang.png
 ab/739e586ae2fe268b4ca91fad35177b: views/lobby/touxiangkuang.png
+17/90b1ea5bce6a5b53fb3c59ef10026e: views/lobby/touxiangkuang_1.png
 96/3b4b28b695259a3a79904a227bd56a: views/lobby/tx_joinroomm_anniu.plist
 b0/b4472e4efd764171695e03ba063d38: views/lobby/tx_joinroomm_anniu.png
 93/38e30fac66744a195a17acbead4f65: views/lobby/tx_joinroomm_anniu1.plist
