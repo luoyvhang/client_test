@@ -42,8 +42,8 @@ function SpreadView:layout()
     'views/shop/empty.png')
 
     --启动动画
-    self:startCsdAnimation(content:getChildByName('lightBeamNode'),"contactus/lightBeamAnimation",true)
-    self:startCsdAnimation(content:getChildByName('klNNNode'),"spread/klNNAnimation",true)
+    --self:startCsdAnimation(content:getChildByName('lightBeamNode'),"contactus/lightBeamAnimation",true)
+    --self:startCsdAnimation(content:getChildByName('klNNNode'),"spread/klNNAnimation",true)
 
 end
 
