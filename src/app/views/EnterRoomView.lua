@@ -21,7 +21,7 @@ function EnterRoomView:layout()
   end
 
   --启动csd动画
-  self:startCsdAnimation(bg:getChildByName("nnBodyNode"),"nnBodyAnimation",true,0.6)
+  --self:startCsdAnimation(bg:getChildByName("nnBodyNode"),"nnBodyAnimation",true,0.6)
 end
 
 function EnterRoomView:clickNumber(i)

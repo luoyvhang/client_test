@@ -28,7 +28,7 @@ function LoginView:layout(version)
   self.XieyiList = self.XieyiLayer:getChildByName('XieyiList')
   self.XieyiList:setScrollBarEnabled(false)
 
-  self:startAction()
+  --self:startAction()
   --self:init3dLayer()
 end
 
@@ -127,7 +127,7 @@ function LoginView:startCsdAnimation( node, csbName, isRepeat, timeSpeed)
   if timeSpeed then
     action:setTimeSpeed(timeSpeed)
   end
-  node:stopAllActions()
+  --node:stopAllActions()
   node:runAction(action)
 end
 
