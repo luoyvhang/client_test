@@ -259,20 +259,20 @@ end
 function LobbyView:loadRooms(rooms)
   local roomList = self.roomList
   local list = roomList:getChildByName('list')
-  local Image_noRoom = self.roomList:getChildByName('Image_noRoom')
+  --local Image_noRoom = self.roomList:getChildByName('Image_noRoom')
   local Text_noRoom = self.roomList:getChildByName('Text_noRoom')
 
     
   if not (rooms and rooms.rooms and #rooms.rooms>0) then
     list:setVisible(false)
-    Image_noRoom:setVisible(true)
+    --Image_noRoom:setVisible(true)
     Text_noRoom:setVisible(true)
     list:removeAllItems()
     return
   end
 
   list:setVisible(true)
-  Image_noRoom:setVisible(false)
+  --Image_noRoom:setVisible(false)
   Text_noRoom:setVisible(false)
   -- list:setItemModel(list:getItem(0))
   list:removeAllItems()
