@@ -91,7 +91,7 @@ function LoginView:init3dLayer()
           card3d_flip:runAction(animate)
         end
       end)]]
-
+      print("...................@@@@@.................zheli")
       card3d:runAction(animate)--(cc.Sequence:create(animate,call))--
   end
 end
