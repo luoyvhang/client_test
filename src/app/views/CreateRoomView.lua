@@ -7,10 +7,10 @@ local CreateRoomView = {}
 local LocalSettings = require('app.models.LocalSettings')
 local roomType = {
     ['szOption'] = 1, 
-    --['gzOption'] = 2, 
+    ['gzOption'] = 2, 
     ['zqOption'] = 3, 
     ['mqOption'] = 4, 
-    --['tbOption'] = 5, 
+    ['tbOption'] = 5, 
     -- ['fkOption'] = 6, 
     ['bmOption'] = 7,
     ['smOption'] = 8,
@@ -29,10 +29,10 @@ local typeOptions = {
 }
 local tabs = {
     ['sz'] = 1, -- 牛牛上庄
-    --['gz'] = 2, -- 固定上庄
+    ['gz'] = 2, -- 固定上庄
     ['zq'] = 3, -- 自由抢庄
     ['mq'] = 4, -- 明牌抢庄
-    --['tb'] = 5, -- 通比牛牛
+    ['tb'] = 5, -- 通比牛牛
     -- ['fk'] = 6, -- 疯狂加倍
     ['bm'] = 7, -- 八人明牌
     ['sm'] = 8, -- 十人明牌
@@ -184,7 +184,7 @@ function CreateRoomView:initialize()
         ['startMode'] = 1,
         ['wanglai'] = 1,
     } }
-
+    print(cc.FileUtils:getInstance():getWritablePath() .. '.CreateRoomConfig')
     if not io.exists(cc.FileUtils:getInstance():getWritablePath() .. '.CreateRoomConfig')  then
 
         print(LocalSettings:getRoomConfig('szOptionbase'))
@@ -548,15 +548,15 @@ function CreateRoomView:freshadvanced(data,sender)
     for i = 1, 4 do
         item:getChildByName('' .. i):getChildByName('select'):setVisible(false)
     end
+    --记录
+    if option_type == 'zqOption' or option_type == 'mqOption' or option_type == 'fkOption' or option_type == 'bmOption' or option_type == 'smOption' then
+        item:getChildByName('4'):getChildByName('select'):setVisible(false)
+     end
 
-    -- if option_type == 'zqOption' or option_type == 'mqOption' or option_type == 'fkOption' or option_type == 'bmOption' or option_type == 'smOption' then
-    --     item:getChildByName('4'):getChildByName('select'):setVisible(false)
-    -- end
-
-    -- if option_type == 'mqOption' or option_type == 'fkOption' or option_type == 'bmOption' or option_type == 'smOption' then
-    --     item:getChildByName('5'):getChildByName('select'):setVisible(false)
-    -- end
-
+     if option_type == 'mqOption' or option_type == 'fkOption' or option_type == 'bmOption' or option_type == 'smOption' then
+         item:getChildByName('5'):getChildByName('select'):setVisible(false)
+    end
+    --记录
     for i = 1, #data do
         if data[i] == i then
             item:getChildByName(tostring(i)):getChildByName('select'):setVisible(true)
