@@ -2984,7 +2984,7 @@ d1/cee7d139de7fb27b7dc9a3c01e3168: src/app/models/xydesk.luac
 0c/379b11247d783acd2481d595981fe5: src/app/views/CertifyView.luac
 51/5eddb81829f9db9c419422b27578e9: src/app/views/ChatView.luac
 de/5e94eac153bfb298ae582a2d82ab93: src/app/views/ContactUsView.luac
-00/0b466502c5a5ba998440cf86e1329f: src/app/views/CreateRoomView.luac
+b0/7cee256d0a17df5e18a08655981670: src/app/views/CreateRoomView.luac
 cb/8e9d09e470ea226707e9d4bcb8f18a: src/app/views/DeskView.luac
 8f/7f82e7296befa16cb84c1aa358279a: src/app/views/DistanceView.luac
 74/07ffaf970e500ab557fe5dd2a4f1bb: src/app/views/EnterRoomView.luac
