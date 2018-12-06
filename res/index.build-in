@@ -2858,7 +2858,7 @@ c5/0a4c8edf8f51193b0aad21a7d49185: views/xysummary/bg.png
 55/7948272844d3c4ca90c83f2a03088f: src/LuaDebugjit.luac
 c7/49c5a0e35f5db9cb301cd60fae0570: src/app/App.luac
 2a/dffab4361f07cbf8e1a6d51cededba: src/app/Session.luac
-01/38ae80c51fd4c4b7fe591556481c50: src/app/controllers/ActivityController.luac
+e3/24448cdbbf396c15c96b05bcf6a801: src/app/controllers/ActivityController.luac
 94/a1f243942a3a63acdef4a1d439ed55: src/app/controllers/ApplyController.luac
 1c/3d4aced481a328c3c9e44ce1e386eb: src/app/controllers/BindPhoneController.luac
 ea/164e5bc5dadfa2c80924cd898df7da: src/app/controllers/BuyCardController.luac
