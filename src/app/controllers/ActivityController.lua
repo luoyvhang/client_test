@@ -19,7 +19,7 @@ function ActivityController:clickBack()
   self.view:stopCsdAnimation()
   self.emitter:emit('back')
 end
-
+--haha
 function ActivityController:finalize()-- luacheck: ignore
  
 end
