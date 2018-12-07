@@ -28,7 +28,7 @@ function LoginView:layout(version)
   self.XieyiList = self.XieyiLayer:getChildByName('XieyiList')
   self.XieyiList:setScrollBarEnabled(false)
 
-  --self:startAction()
+  self:startAction()
   --self:init3dLayer()
 end
 
@@ -91,7 +91,7 @@ function LoginView:init3dLayer()
           card3d_flip:runAction(animate)
         end
       end)]]
-      print('...................@@@@@.................zheli')
+
       card3d:runAction(animate)--(cc.Sequence:create(animate,call))--
   end
 end
@@ -127,7 +127,7 @@ function LoginView:startCsdAnimation( node, csbName, isRepeat, timeSpeed)
   if timeSpeed then
     action:setTimeSpeed(timeSpeed)
   end
-  --node:stopAllActions()
+  node:stopAllActions()
   node:runAction(action)
 end
 

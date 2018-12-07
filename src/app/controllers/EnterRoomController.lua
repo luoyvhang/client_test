@@ -19,7 +19,7 @@ end
 
 function EnterRoomController:clickBack()
   SoundMng.playEft('btn_click.mp3')
-  --self.view:stopCsdAnimation()
+  self.view:stopCsdAnimation()
   self.emitter:emit('back')
 end
 
