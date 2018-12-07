@@ -1,0 +1,237 @@
+
+hlssmheguan.png
+size: 1824,364
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hlssm_npc_body
+  rotate: true
+  xy: 2, 11
+  size: 351, 590
+  orig: 351, 590
+  offset: 0, 0
+  index: -1
+hlssm_npc_guang1
+  rotate: true
+  xy: 1782, 224
+  size: 44, 29
+  orig: 44, 29
+  offset: 0, 0
+  index: -1
+hlssm_npc_guang2
+  rotate: false
+  xy: 648, 3
+  size: 39, 24
+  orig: 39, 24
+  offset: 0, 0
+  index: -1
+hlssm_npc_guang3
+  rotate: false
+  xy: 1709, 200
+  size: 71, 68
+  orig: 71, 68
+  offset: 0, 0
+  index: -1
+hlssm_npc_guang4
+  rotate: false
+  xy: 2, 2
+  size: 32, 7
+  orig: 32, 7
+  offset: 0, 0
+  index: -1
+hlssm_npc_hudiejie
+  rotate: true
+  xy: 754, 30
+  size: 80, 99
+  orig: 80, 99
+  offset: 0, 0
+  index: -1
+hlssm_npc_hudiejieyy
+  rotate: false
+  xy: 1570, 285
+  size: 63, 77
+  orig: 63, 77
+  offset: 0, 0
+  index: -1
+hlssm_npc_lian
+  rotate: false
+  xy: 1336, 149
+  size: 171, 213
+  orig: 171, 213
+  offset: 0, 0
+  index: -1
+hlssm_npc_shoulian
+  rotate: true
+  xy: 594, 2
+  size: 25, 52
+  orig: 25, 52
+  offset: 0, 0
+  index: -1
+hlssm_npc_shouzhuo1
+  rotate: true
+  xy: 1770, 105
+  size: 49, 50
+  orig: 49, 50
+  offset: 0, 0
+  index: -1
+hlssm_npc_shouzhuo1_yingzi
+  rotate: false
+  xy: 1635, 270
+  size: 47, 46
+  orig: 47, 46
+  offset: 0, 0
+  index: -1
+hlssm_npc_shouzhuo2
+  rotate: true
+  xy: 1709, 99
+  size: 43, 55
+  orig: 43, 55
+  offset: 0, 0
+  index: -1
+hlssm_npc_shouzhuo2_yingzi
+  rotate: true
+  xy: 1770, 156
+  size: 42, 52
+  orig: 42, 52
+  offset: 0, 0
+  index: -1
+hlssm_npc_toufa1
+  rotate: true
+  xy: 1153, 15
+  size: 119, 170
+  orig: 119, 170
+  offset: 0, 0
+  index: -1
+hlssm_npc_toufa10
+  rotate: false
+  xy: 855, 4
+  size: 63, 106
+  orig: 63, 106
+  offset: 0, 0
+  index: -1
+hlssm_npc_toufa2
+  rotate: true
+  xy: 1698, 144
+  size: 54, 70
+  orig: 54, 70
+  offset: 0, 0
+  index: -1
+hlssm_npc_toufa3
+  rotate: true
+  xy: 689, 5
+  size: 22, 50
+  orig: 22, 50
+  offset: 0, 0
+  index: -1
+hlssm_npc_toufa4
+  rotate: true
+  xy: 1709, 311
+  size: 51, 111
+  orig: 51, 111
+  offset: 0, 0
+  index: -1
+hlssm_npc_toufa5
+  rotate: true
+  xy: 1766, 75
+  size: 28, 43
+  orig: 28, 43
+  offset: 0, 0
+  index: -1
+hlssm_npc_toufa6
+  rotate: false
+  xy: 1509, 275
+  size: 59, 87
+  orig: 59, 87
+  offset: 0, 0
+  index: -1
+hlssm_npc_toufa7
+  rotate: false
+  xy: 1269, 144
+  size: 65, 218
+  orig: 65, 218
+  offset: 0, 0
+  index: -1
+hlssm_npc_toufa8
+  rotate: false
+  xy: 1635, 318
+  size: 72, 44
+  orig: 72, 44
+  offset: 0, 0
+  index: -1
+hlssm_npc_toufa9
+  rotate: false
+  xy: 1611, 149
+  size: 85, 119
+  orig: 85, 119
+  offset: 0, 0
+  index: -1
+hlssm_npc_toufada
+  rotate: true
+  xy: 754, 112
+  size: 250, 366
+  orig: 250, 366
+  offset: 0, 0
+  index: -1
+hlssm_npc_xianglian
+  rotate: true
+  xy: 1509, 149
+  size: 119, 100
+  orig: 119, 100
+  offset: 0, 0
+  index: -1
+hlssm_npc_yanpi
+  rotate: false
+  xy: 1709, 270
+  size: 111, 39
+  orig: 111, 39
+  offset: 0, 0
+  index: -1
+hlssm_npc_youerhuan
+  rotate: true
+  xy: 791, 20
+  size: 8, 59
+  orig: 8, 59
+  offset: 0, 0
+  index: -1
+hlssm_npc_youshou
+  rotate: true
+  xy: 1325, 3
+  size: 139, 382
+  orig: 139, 382
+  offset: 0, 0
+  index: -1
+hlssm_npc_youshoubi
+  rotate: true
+  xy: 920, 6
+  size: 104, 231
+  orig: 104, 231
+  offset: 0, 0
+  index: -1
+hlssm_npc_zuoerhuan
+  rotate: true
+  xy: 791, 9
+  size: 9, 56
+  orig: 9, 56
+  offset: 0, 0
+  index: -1
+hlssm_npc_zuoshou
+  rotate: true
+  xy: 594, 29
+  size: 333, 158
+  orig: 333, 158
+  offset: 0, 0
+  index: -1
+hlssm_npc_zuoshou_beimian
+  rotate: true
+  xy: 741, 10
+  size: 17, 48
+  orig: 17, 48
+  offset: 0, 0
+  index: -1
+hlssm_npc_zuoshoubi
+  rotate: false
+  xy: 1122, 136
+  size: 145, 226
+  orig: 145, 226
+  offset: 0, 0
+  index: -1
