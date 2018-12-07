@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>item15_bowfly1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,134},{400,52}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{400,80}</string>
+			</dict>
+			<key>item15_bowfly10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{415,415},{400,53}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{400,80}</string>
+			</dict>
+			<key>item15_bowfly11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,5},{400,56}}</string>
+				<key>offset</key>
+				<string>{0,5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{400,80}</string>
+			</dict>
+			<key>item15_bowfly12.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,320},{371,53}}</string>
+				<key>offset</key>
+				<string>{14,3}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{400,80}</string>
+			</dict>
+			<key>item15_bowfly13.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,825},{400,53}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{400,80}</string>
+			</dict>
+			<key>item15_bowfly2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,196},{400,52}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{400,80}</string>
+			</dict>
+			<key>item15_bowfly3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,415},{400,54}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{400,80}</string>
+			</dict>
+			<key>item15_bowfly4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,888},{400,53}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{400,80}</string>
+			</dict>
+			<key>item15_bowfly5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{415,5},{400,55}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{400,80}</string>
+			</dict>
+			<key>item15_bowfly6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,951},{400,53}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{400,80}</string>
+			</dict>
+			<key>item15_bowfly7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,258},{400,52}}</string>
+				<key>offset</key>
+				<string>{0,2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{400,80}</string>
+			</dict>
+			<key>item15_bowfly8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,479},{400,44}}</string>
+				<key>offset</key>
+				<string>{0,-5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{400,80}</string>
+			</dict>
+			<key>item15_bowfly9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,71},{400,53}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{400,80}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>item15_anims_fly_i6p.png</string>
+			<key>realTextureFileName</key>
+			<string>item15_anims_fly_i6p.png</string>
+			<key>size</key>
+			<string>{512,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>512</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

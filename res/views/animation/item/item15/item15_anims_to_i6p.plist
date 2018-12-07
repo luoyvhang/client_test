@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>item15_bow_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{208,248},{29,35}}</string>
+				<key>offset</key>
+				<string>{-16,8}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>item15_bow_10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{94,88},{79,70}}</string>
+				<key>offset</key>
+				<string>{1,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>item15_bow_11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,5},{79,73}}</string>
+				<key>offset</key>
+				<string>{1,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>item15_bow_12.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{94,5},{79,73}}</string>
+				<key>offset</key>
+				<string>{1,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>item15_bow_13.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,88},{79,73}}</string>
+				<key>offset</key>
+				<string>{1,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>item15_bow_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{157,248},{41,35}}</string>
+				<key>offset</key>
+				<string>{-10,8}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>item15_bow_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{86,248},{41,61}}</string>
+				<key>offset</key>
+				<string>{-10,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>item15_bow_4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,171},{71,61}}</string>
+				<key>offset</key>
+				<string>{5,-5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>item15_bow_5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{5,242},{71,61}}</string>
+				<key>offset</key>
+				<string>{5,-5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>item15_bow_6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{183,5},{71,66}}</string>
+				<key>offset</key>
+				<string>{5,-3}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>item15_bow_7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{183,86},{71,66}}</string>
+				<key>offset</key>
+				<string>{5,-3}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>item15_bow_8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{183,167},{71,66}}</string>
+				<key>offset</key>
+				<string>{5,-3}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>item15_bow_9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{94,168},{71,70}}</string>
+				<key>offset</key>
+				<string>{5,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>item15_anims_to_i6p.png</string>
+			<key>realTextureFileName</key>
+			<string>item15_anims_to_i6p.png</string>
+			<key>size</key>
+			<string>{256,512}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>256</integer>
+			<key>height</key>
+			<integer>512</integer>
+		</dict>
+	</dict>
+</plist>

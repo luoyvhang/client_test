@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>zj_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{250,300},{79,79}}</string>
+				<key>offset</key>
+				<string>{6,-17}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{118,113}</string>
+			</dict>
+			<key>zj_10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{354,0},{118,109}}</string>
+				<key>offset</key>
+				<string>{0,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{118,113}</string>
+			</dict>
+			<key>zj_11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{118,0},{118,112}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{118,113}</string>
+			</dict>
+			<key>zj_12.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{236,0},{118,112}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{118,113}</string>
+			</dict>
+			<key>zj_13.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{354,109},{118,109}}</string>
+				<key>offset</key>
+				<string>{0,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{118,113}</string>
+			</dict>
+			<key>zj_14.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{118,113}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{118,113}</string>
+			</dict>
+			<key>zj_15.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,327},{104,110}}</string>
+				<key>offset</key>
+				<string>{-7,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{118,113}</string>
+			</dict>
+			<key>zj_16.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{250,221},{79,88}}</string>
+				<key>offset</key>
+				<string>{15,12}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{118,113}</string>
+			</dict>
+			<key>zj_17.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,221},{87,91}}</string>
+				<key>offset</key>
+				<string>{11,11}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{118,113}</string>
+			</dict>
+			<key>zj_18.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{170,221},{80,91}}</string>
+				<key>offset</key>
+				<string>{9,8}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{118,113}</string>
+			</dict>
+			<key>zj_19.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{104,312},{79,94}}</string>
+				<key>offset</key>
+				<string>{14,9}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{118,113}</string>
+			</dict>
+			<key>zj_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,437},{74,75}}</string>
+				<key>offset</key>
+				<string>{7,-17}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{118,113}</string>
+			</dict>
+			<key>zj_20.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{87,221},{83,91}}</string>
+				<key>offset</key>
+				<string>{16,8}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{118,113}</string>
+			</dict>
+			<key>zj_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{408,327},{77,77}}</string>
+				<key>offset</key>
+				<string>{6,-17}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{118,113}</string>
+			</dict>
+			<key>zj_4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{74,437},{74,75}}</string>
+				<key>offset</key>
+				<string>{7,-16}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{118,113}</string>
+			</dict>
+			<key>zj_5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{329,327},{79,77}}</string>
+				<key>offset</key>
+				<string>{3,-15}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{118,113}</string>
+			</dict>
+			<key>zj_6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{350,218},{110,109}}</string>
+				<key>offset</key>
+				<string>{4,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{118,113}</string>
+			</dict>
+			<key>zj_7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{236,112},{114,109}}</string>
+				<key>offset</key>
+				<string>{-2,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{118,113}</string>
+			</dict>
+			<key>zj_8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{118,112},{118,109}}</string>
+				<key>offset</key>
+				<string>{0,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{118,113}</string>
+			</dict>
+			<key>zj_9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,113},{118,108}}</string>
+				<key>offset</key>
+				<string>{0,-2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{118,113}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>kuso9.png</string>
+			<key>realTextureFileName</key>
+			<string>kuso9.png</string>
+			<key>size</key>
+			<string>{512,512}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>512</integer>
+			<key>height</key>
+			<integer>512</integer>
+		</dict>
+	</dict>
+</plist>
