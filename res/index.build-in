@@ -329,7 +329,7 @@ b7/8188301d02a3b24c1ebc3ffa9b1338: views/GVMemberListView.csb
 ef/183c84599c1306a9e1e998768df037: views/GVSetScoreView.csb
 3c/81bfa3d65cd75eb5578d33ae90b649: views/GroupView.csb
 d4/c3b5a3f9b342f10df0045c7bd00b7f: views/H5ShopView.csb
-1d/3cdc170ebd8e33f8a01f1397c87893: views/LobbyView.csb
+f3/21053f78e714aa86df7ca9f17f42f7: views/LobbyView.csb
 a1/f56c34ca9663686f0beb96215e63f4: views/LoginP/zdn0003.png
 22/572794e72f8bec15f1c3dec5cc1337: views/LoginP/zdn0004.png
 16/0789971ebfa30a83322af5e775ccb3: views/LoginP/zdn0005.png
@@ -1622,6 +1622,7 @@ a4/6ce3a42101ebd041d8fc2c87613936: views/lobby/.tx_login_PList.Dir/tx_login_7.pn
 e5/415ad14dfcf1e6da6bbcf015ccf0b0: views/lobby/.tx_login_PList.Dir/tx_login_8.png
 cc/61851d80d25c7328b955b389f32c4f: views/lobby/.tx_login_PList.Dir/tx_login_9.png
 b7/c4181b8d350ca090f8c771f1f39aec: views/lobby/1.png
+c4/ef37f846578d02da23fef5425e3026: views/lobby/12.png
 a6/514b1cc4b65a7bed126a2345683859: views/lobby/18.png
 99/437d99c90493563d3b5add648d95a0: views/lobby/4g1.png
 78/f26d37ea3d0030c1c426873def5352: views/lobby/4g2.png
@@ -1888,6 +1889,7 @@ d0/7fd1fef5be56da52ab8c8d0277825a: views/lobby/service1.png
 7c/1c3c2c6af73870069999250bde5701: views/lobby/shop.png
 12/31ceda58030ca71ccba285748ed001: views/lobby/shopAnimation.csb
 f0/2922d8b008e9091fba7ad9286dedf2: views/lobby/shopAnimation.csd
+05/77661ecb86c21be40b584b56044670: views/lobby/shu.png
 de/f9361c78800e1e067b47d713f4c629: views/lobby/signInAnimation.csd
 42/a856683a2c00083d7f8fd457a20d31: views/lobby/spades.png
 ea/d28da32afdbd195b15b2c6ef4118f0: views/lobby/texiao/bsc/13.png
