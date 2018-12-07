@@ -7,20 +7,20 @@
 			<key>hpj_1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,0},{144,114}}</string>
+				<string>{{0,316},{125,62}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{-1,-16}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{144,114}</string>
 			</dict>
 			<key>hpj_10.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,144},{144,114}}</string>
+				<string>{{415,0},{133,94}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{-5,5}</string>
 				<key>rotated</key>
 				<true />
 				<key>sourceSize</key>
@@ -29,53 +29,53 @@
 			<key>hpj_11.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,288},{144,114}}</string>
+				<string>{{280,0},{135,102}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{-4,5}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{144,114}</string>
 			</dict>
 			<key>hpj_12.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{114,0},{144,114}}</string>
+				<string>{{142,100},{136,100}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{-3,2}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{144,114}</string>
 			</dict>
 			<key>hpj_13.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{114,144},{144,114}}</string>
+				<string>{{142,0},{138,100}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{-2,2}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{144,114}</string>
 			</dict>
 			<key>hpj_14.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{114,288},{144,114}}</string>
+				<string>{{278,196},{123,95}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{3,-7}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{144,114}</string>
 			</dict>
 			<key>hpj_15.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{228,0},{144,114}}</string>
+				<string>{{408,133},{128,95}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{3,1}</string>
 				<key>rotated</key>
 				<true />
 				<key>sourceSize</key>
@@ -84,108 +84,108 @@
 			<key>hpj_16.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{228,144},{144,114}}</string>
+				<string>{{0,109},{121,74}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{3,-18}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{144,114}</string>
 			</dict>
 			<key>hpj_17.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{228,288},{144,114}}</string>
+				<string>{{250,353},{111,63}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{-1,-13}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{144,114}</string>
 			</dict>
 			<key>hpj_18.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{342,0},{144,114}}</string>
+				<string>{{250,291},{125,62}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{-1,-16}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{144,114}</string>
 			</dict>
 			<key>hpj_19.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{342,144},{144,114}}</string>
+				<string>{{125,265},{125,64}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{-1,-15}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{144,114}</string>
 			</dict>
 			<key>hpj_2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{342,288},{144,114}}</string>
+				<string>{{125,200},{125,65}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{-1,-15}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{144,114}</string>
 			</dict>
 			<key>hpj_20.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{456,0},{144,114}}</string>
+				<string>{{0,183},{125,68}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{-1,-13}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{144,114}</string>
 			</dict>
 			<key>hpj_3.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{456,144},{144,114}}</string>
+				<string>{{125,329},{125,62}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{-1,-16}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{144,114}</string>
 			</dict>
 			<key>hpj_4.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{456,288},{144,114}}</string>
+				<string>{{0,251},{125,65}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{-1,-14}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{144,114}</string>
 			</dict>
 			<key>hpj_5.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{570,0},{144,114}}</string>
+				<string>{{401,261},{142,71}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{0,-13}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
 				<string>{144,114}</string>
 			</dict>
 			<key>hpj_6.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{714,0},{144,114}}</string>
+				<string>{{0,378},{118,62}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{0,-16}</string>
 				<key>rotated</key>
 				<false />
 				<key>sourceSize</key>
@@ -194,9 +194,9 @@
 			<key>hpj_7.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{858,0},{144,114}}</string>
+				<string>{{118,391},{95,62}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{0,-13}</string>
 				<key>rotated</key>
 				<false />
 				<key>sourceSize</key>
@@ -205,22 +205,22 @@
 			<key>hpj_8.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{570,114},{144,114}}</string>
+				<string>{{0,0},{142,109}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{0,-2}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{144,114}</string>
 			</dict>
 			<key>hpj_9.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{570,258},{144,114}}</string>
+				<string>{{278,102},{130,94}}</string>
 				<key>offset</key>
-				<string>{0,0}</string>
+				<string>{-6,5}</string>
 				<key>rotated</key>
-				<true />
+				<false />
 				<key>sourceSize</key>
 				<string>{144,114}</string>
 			</dict>
@@ -234,14 +234,14 @@
 			<key>realTextureFileName</key>
 			<string>kuso4.png</string>
 			<key>size</key>
-			<string>{1002,432}</string>
+			<string>{512,512}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
-			<integer>1002</integer>
+			<integer>512</integer>
 			<key>height</key>
-			<integer>432</integer>
+			<integer>512</integer>
 		</dict>
 	</dict>
 </plist>
