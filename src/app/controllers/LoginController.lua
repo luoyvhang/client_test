@@ -105,7 +105,7 @@ function LoginController:clickLogin()
   end
 
   --停止播放动画
-  --self.view:stopAllCsdAnimation()
+  self.view:stopAllCsdAnimation()
 end
 
 function LoginController:viewDidLoad()
