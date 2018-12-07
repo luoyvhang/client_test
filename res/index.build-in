@@ -162,7 +162,7 @@ b5/36adb4b8441ce553de55d35aad8a4b: cards/small/x7.png
 4e/c8848ac96a4220f9009f2b797f4246: cards/small/x8.png
 e3/f36a85569a9fb65b5fadeca92c2f2b: cards/small/x9.png
 03/c5b8c1af2bc32892007b9c045c9882: roomList.png
-2b/e1badb8f57e2df4b786edf3e47b914: social.json
+95/d94f4801c2b73fb9b7a3c4a991e8c6: social.json
 14/9022b8fa8cd13aee0701803374e290: sound/bgm1.mp3
 ac/5336feed418e8d8874672783ae3ea6: sound/btn_click.mp3
 fa/0c943dff6a4afa4e721a34c542deb4: sound/chat/voice_0_0.mp3
@@ -2858,7 +2858,7 @@ c5/0a4c8edf8f51193b0aad21a7d49185: views/xysummary/bg.png
 55/7948272844d3c4ca90c83f2a03088f: src/LuaDebugjit.luac
 c7/49c5a0e35f5db9cb301cd60fae0570: src/app/App.luac
 2a/dffab4361f07cbf8e1a6d51cededba: src/app/Session.luac
-01/38ae80c51fd4c4b7fe591556481c50: src/app/controllers/ActivityController.luac
+e3/24448cdbbf396c15c96b05bcf6a801: src/app/controllers/ActivityController.luac
 94/a1f243942a3a63acdef4a1d439ed55: src/app/controllers/ApplyController.luac
 1c/3d4aced481a328c3c9e44ce1e386eb: src/app/controllers/BindPhoneController.luac
 ea/164e5bc5dadfa2c80924cd898df7da: src/app/controllers/BuyCardController.luac
