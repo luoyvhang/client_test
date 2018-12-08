@@ -349,6 +349,23 @@ function LobbyController:clickExchange()
     setWidgetAction('ExchangeController', self)
 end
 
+
+function LobbyController:FriendBtnClick()
+    local app = require("app.App"):instance()
+    local msg = {
+      msgID = 'GoodFriengRooms',
+    }
+    app.conn:send(msg)
+end
+
+function LobbyController:NewFriendBtn()
+    local app = require("app.App"):instance()
+    local msg = {
+      msgID = 'niuyouRooms',
+    }
+    app.conn:send(msg)
+end
+
 function LobbyController:loadNotifyController()
   local ctrl = Controller:load('NotifyController')
   self:add(ctrl)
