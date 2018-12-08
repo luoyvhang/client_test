@@ -1249,11 +1249,11 @@ end
 -- 支付方式
 function GameLogic.getPayModeText(deskInfo)
 	local idx = deskInfo.roomPrice
-	local payText = "房主支付"
+	local payText = "房主"
 	if idx == 1 then
-	  payText = "房主支付"
+	  payText = "房主"
 	else
-	  payText = "AA支付"
+	  payText = "AA"
 	end
 	return payText
 end

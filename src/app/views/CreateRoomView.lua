@@ -184,7 +184,7 @@ function CreateRoomView:initialize()
         ['startMode'] = 1,
         ['wanglai'] = 1,
     } }
-    print(cc.FileUtils:getInstance():getWritablePath() .. '.CreateRoomConfig')
+
     if not io.exists(cc.FileUtils:getInstance():getWritablePath() .. '.CreateRoomConfig')  then
 
         print(LocalSettings:getRoomConfig('szOptionbase'))
@@ -252,12 +252,10 @@ function CreateRoomView:freshTab(data)
             currentOpt:setVisible(false)
         end
     end
-    --记录
-    --  if self.isgroup then 
-    --      self.bg:getChildByName('tb'):setVisible(false)
-    --      self.bg:getChildByName('gz'):setVisible(false)
-    --  end
-     --记录
+    -- if self.isgroup then 
+    --     self.bg:getChildByName('tb'):setVisible(false)
+    --     self.bg:getChildByName('gz'):setVisible(false)
+    -- end
     LocalSettings:setRoomConfig("gameplay", self.focus)
 end
 
@@ -548,15 +546,15 @@ function CreateRoomView:freshadvanced(data,sender)
     for i = 1, 4 do
         item:getChildByName('' .. i):getChildByName('select'):setVisible(false)
     end
-    --记录
+
     -- if option_type == 'zqOption' or option_type == 'mqOption' or option_type == 'fkOption' or option_type == 'bmOption' or option_type == 'smOption' then
     --     item:getChildByName('4'):getChildByName('select'):setVisible(false)
-    --  end
-
-    --  if option_type == 'mqOption' or option_type == 'fkOption' or option_type == 'bmOption' or option_type == 'smOption' then
-    --      item:getChildByName('5'):getChildByName('select'):setVisible(false)
     -- end
-    --记录
+
+    -- if option_type == 'mqOption' or option_type == 'fkOption' or option_type == 'bmOption' or option_type == 'smOption' then
+    --     item:getChildByName('5'):getChildByName('select'):setVisible(false)
+    -- end
+
     for i = 1, #data do
         if data[i] == i then
             item:getChildByName(tostring(i)):getChildByName('select'):setVisible(true)
@@ -791,13 +789,12 @@ function CreateRoomView:layout(isGroup, createmode, paymode)
     else
         self.focus = 'sz'
     end
-    --记录
+
     -- if self.isgroup then
     --     if self.focus == 'gz' or self.focus == 'tb' then
     --         self.focus = 'sz'
-    --      end
+    --     end
     -- end
-    --记录
     self:freshTab()
 
     --启动csd动画
