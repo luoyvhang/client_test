@@ -282,7 +282,6 @@ function LobbyView:loadRooms(rooms)
 
 
   for i, v in ipairs(data) do
-    
     list:pushBackDefaultItem()
     local item = list:getItem(i - 1)
     local roomId = item:getChildByName('roomId')

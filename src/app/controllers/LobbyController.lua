@@ -115,12 +115,8 @@ function LobbyController:viewDidLoad()
         self.notifyController:notify(msg)
     end),
 
-    user:on('GoodFriengRooms',function(rooms)
+    user:on('listRooms',function(rooms)
       self.view:loadRooms(rooms)
-    end),
-
-    user:on('niuyouRooms',function(rooms)
-        self.view:loadRooms(rooms)
     end),
 
     scheme:on('schemeRoomId',function(roomId)
@@ -156,7 +152,7 @@ function LobbyController:viewDidLoad()
     end
 end
 
-function 
+
 
 function LobbyController:getSelf()
      return self
@@ -283,22 +279,7 @@ function LobbyController:runRoomListAction()
    end
 
 end
--- 点击好友场
-function LobbyController:FriendBtnClick()
-    local app = require("app.App"):instance()
-  local msg = {
-    msgID = 'GoodFriengRooms',
-  }
-  app.conn:send(msg)
-end
--- 点击牛友场
-function LobbyController:NewFriendBtn()
-    local app = require("app.App"):instance()
-    local msg = {
-      msgID = 'niuyouRooms',
-    }
-    app.conn:send(msg)
-end
+
 -- 点击进入牛牛
 function LobbyController:clickEntryNN()
     setWidgetAction('CreateRoomController', self)
