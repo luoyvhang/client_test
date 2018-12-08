@@ -39,10 +39,10 @@ local function devconf()
 end
 
 local production = {
-  host='192.168.1.5',
+  host=' 47.92.201.15',
   port = 28302,
-  update = 'http://192.168.1.5:3000/chaoshanniuniu',
-  download = 'http://nnstart.qiaozishan.com/download',
+  update = 'http:// 47.92.201.15:3000/chaoshanniuniu',
+  download = 'http:// 47.92.201.15/download',
   STARTUP='UpdateController',
   connectPort = 1234,
 }
