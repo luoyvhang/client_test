@@ -86,7 +86,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
-            <FileData Type="PlistSubImage" Path="hallloge_tx_1.png" Plist="views/lobby/hallloge_tx.plist" />
+            <FileData Type="PlistSubImage" Path="hallloge_tx_12.png" Plist="views/lobby/hallloge_tx.plist" />
             <BlendFunc Src="770" Dst="1" />
           </AbstractNodeData>
         </Children>
